@@ -1,0 +1,48 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	  background: linear-gradient(#BDF400, #DBF970) fixed;
+}
+
+
+table{
+
+}
+
+table td{
+	background: #CFF93E;
+}
+
+h6,h5,h4,h3,h2,h1{
+	font-family: "Goudy Bookletter 1911", sans-serif;
+}
+p,a,li{
+	 font: bold italic small-caps  Arial, Helvetica, sans-serif;
+}
+a{
+	background: #DBF970;
+}
+.biography p{
+font-style: italic;
+}
+p{
+	font-style: italic;
+}
+.list .list-elem{
+	font-weight: 700;
+
+}
+
+.NewsDescription{
+	background: #BDF400;
+}
+
+img{
+	border: medium dashed #7B9E00;
+}
+.wrapper{
+	height: 100%;
+	width: 60%;
+	position: relative;
+	margin:0 auto;
+}
