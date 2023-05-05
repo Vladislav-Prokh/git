@@ -1,0 +1,32 @@
+footer{
+	 visibility: hidden;
+}
+.hiddenMessage{
+	visibility: hidden;
+}
+body{
+	background: white;
+}
+@each $element in .wrapper,.list,.PieceOfNews,.NewsDescription,.biography {
+	.#{$element} {
+		background: white;
+	}
+}
+
+a[href*="example"] {
+	background-color: #CCCCCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: "Palatino";
+}
+li, article, p {
+	font: "Times New Roman";
+}
+a {
+	font: "Georgia";
+}
+
+h1, h2, h3, h4, h5, h6,li,article,p,a{
+	margin-left:50px;
+}
